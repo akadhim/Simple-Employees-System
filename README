@@ -1,4 +1,4 @@
-3)	(35 marks) We want to develop a system that calculates and displays the total gross earnings, 
+We want to develop a system that calculates and displays the total gross earnings, 
 tax payable, medical deduction and net earnings for employees of a fictional company. The user 
 will input the four-digit employee number, hours worked (a positive integer) and the hourly rate 
 of pay (an integer number between 10 and 100 inclusively) and the program will output. 
