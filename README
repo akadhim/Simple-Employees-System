@@ -11,9 +11,11 @@ of pay (an integer number between 10 and 100 inclusively) and the program will o
 a)	Generate test cases based on the problem specification. 
 
 Test Cases
+
 Valid
 Input data: < 1000 5 10 >	Expected output: 50 10 0.5 39.5
 Input data: < 9999 2 100 >	Expected output: 200 40 2 158
+
 Invalid
 Input data: < 999 5 10>		Expected output: INVALID
 Input data: < 1000 0 10>	Expected output: INVALID
