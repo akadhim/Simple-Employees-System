@@ -1,0 +1,40 @@
+3)	(35 marks) We want to develop a system that calculates and displays the total gross earnings, 
+tax payable, medical deduction and net earnings for employees of a fictional company. The user 
+will input the four-digit employee number, hours worked (a positive integer) and the hourly rate 
+of pay (an integer number between 10 and 100 inclusively) and the program will output. 
+
+•	The employee gross earnings, which is calculated as: hours_worked * hourly_rate 
+•	Tax payable, which is 20% of gross earnings if gross pay is less than or equal to $300, 30% otherwise. 
+•	The medical deduction, which is calculated as 1% of gross earnings.
+•	The net earnings, which is the gross earnings from which we deduct the tax and the medical deduction. 
+
+a)	Generate test cases based on the problem specification. 
+
+Test Cases
+Valid
+Input data: < 1000 5 10 >	Expected output: 50 10 0.5 39.5
+Input data: < 9999 2 100 >	Expected output: 200 40 2 158
+Invalid
+Input data: < 999 5 10>		Expected output: INVALID
+Input data: < 1000 0 10>	Expected output: INVALID
+Input data: < 1000 5 9>		Expected output: INVALID
+Input data: < 1000 5 101>	Expected output: INVALID
+Input data: < 10000 2 100 >	Expected output: INVALID
+
+b)	Write a C++ program for this problem and exercise all test cases of (a). 
+Provide a report that contains the results of applying the test cases on the implementation, 
+i.e., bugs found, etc. 
+
+Test Cases Result
+
+Valid
+Input data: < 1000 5 10 >	Output: 50 10 0.5 39.5
+Input data: < 9999 2 100 >	Output: 200 40 2 158
+
+Invalid
+Input data: < 999 5 10>		Output: INVALID
+Input data: < 1000 0 10>	Output: INVALID
+Input data: < 1000 5 9>		Output: INVALID
+Input data: < 1000 5 101>	Output: INVALID
+Input data: < 10000 2 100 >	Output: INVALID
+
